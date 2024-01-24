@@ -63,4 +63,39 @@ Your branch is up to date with 'origin/develop'.
 M	instructions.md
 Switched to branch 'feature/Prova-per-un-primo-branch'
 
-➜  linux-cmd-on-projects git:(feature/Prova-per-un-primo-branch) ✗
+➜  linux-cmd-on-projects git:(feature/Prova-per-un-primo-branch) ✗ git commit -m"refs PRIMA-PROVA-COMMIT: created a new Route3"
+[feature/Prova-per-un-primo-branch aeb82b4] refs PRIMA-PROVA-COMMIT: created a new Route3
+ 2 files changed, 52 insertions(+), 2 deletions(-)
+ create mode 100644 app/route3/page.tsx
+
+➜  linux-cmd-on-projects git:(feature/Prova-per-un-primo-branch) ✗ git commit -m"refs PRIMA-PROVA-COMMIT: created a new Route3"
+[feature/Prova-per-un-primo-branch aeb82b4] refs PRIMA-PROVA-COMMIT: created a new Route3
+ 2 files changed, 52 insertions(+), 2 deletions(-)
+ create mode 100644 app/route3/page.tsx
+
+➜  linux-cmd-on-projects git:(feature/Prova-per-un-primo-branch) git push
+fatal: The current branch feature/Prova-per-un-primo-branch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature/Prova-per-un-primo-branch
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+➜  linux-cmd-on-projects git:(feature/Prova-per-un-primo-branch)  git push --set-upstream origin feature/Prova-per-un-primo-branch
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 11 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.19 KiB | 1.19 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'feature/Prova-per-un-primo-branch' on GitHub by visiting:
+remote:      https://github.com/lucaf1990/linux-cmd-on-projects/pull/new/feature/Prova-per-un-primo-branch
+remote:
+To https://github.com/lucaf1990/linux-cmd-on-projects.git
+ * [new branch]      feature/Prova-per-un-primo-branch -> feature/Prova-per-un-primo-branch
+branch 'feature/Prova-per-un-primo-branch' set up to track 'origin/feature/Prova-per-un-primo-branch'.
+
+➜  linux-cmd-on-projects git:(feature/Prova-per-un-primo-branch)
